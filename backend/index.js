@@ -9,7 +9,7 @@ const stripe = Stripe('sk_test_51Php9jJ4tzySvsYcRYVXgwDDiYTWmtyOI8jq3aj2yNGdIe74
 const app = express();
 
 // Middleware
-app.use(cors({ origin: 'https://backend-stripe-4q2a.onrender.com', credentials: true })); //live
+app.use(cors({ origin: 'https://frontend-stripe.vercel.app', credentials: true })); //live
 // app.use(cors({ origin: 'http://localhost:4200', credentials: true })); //local
 app.use(bodyParser.json());
 
